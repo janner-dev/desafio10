@@ -1,0 +1,52 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding:40px;
+}
+
+.titulo-principal{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.dia{
+    color: orange;
+}
+
+.tabla_del_ocho{
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding:40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+
+
+/*Aquí inicia el CSS para nuestra home*/
+.banner{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:480px){
+    h1, h2{
+        text-align: center;
+    }
+}
+
